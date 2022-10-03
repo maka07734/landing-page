@@ -106,7 +106,6 @@ button {
     justify-content: center;
     gap: 50px;
     margin: 0;
-
 }
 
 .dataset {
@@ -122,7 +121,7 @@ button {
     margin-top: 8px;
 }
 
-img {
+.dataset img {
     width: 175px;
     height: 150px;
     border: 3px solid #3882F6;
@@ -153,28 +152,38 @@ img {
 }
 
 .hire {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px 200px;
     display: flex;
     justify-content: center;
-    margin: 75px 200px;
+    border-radius: 8px;
 }
 
 .hire-container {
-    background-color: #3882F6;
-    color: white;
-  
+    margin: 25px 0px;
+    width: 900px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-    
 }
 
 .hire-container button {
     border: 1px solid white;
 }
 
+.hire-text p {
+    margin: 0px 0px 16px 0px;
+}
+
+.hire-text h3 {
+    margin: 16px 0px 0px 0px;
+}
+
 .footer {
-    
+    text-align: center;
+    font-size: 16px;
 }
 
 
