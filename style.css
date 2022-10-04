@@ -11,11 +11,15 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB
+    color: black;
+}
+
+ul {
+    list-style: none;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #02248d;
     color: white;
     font-size: 18px;
     border: none;
@@ -23,14 +27,14 @@ button {
     padding: 5px 24px;
 }
 
-.header, 
+.nav, 
 .hero-container,
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color:#a0d1f0;
+    color: black;
 }
 
-.header {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,13 +45,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
+    background-color: #cfe73a;
     padding: 8px;
     font-size: 24px;
     border-radius: 16px;
 }
 
-.nav {
+.links {
     font-size: 18px;
     display: flex;
     gap: 28px;
@@ -56,7 +60,7 @@ button {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    padding: 100px 200px;
+    padding: 50px 200px 75px 200px;
 }
 
 .hero-text {
@@ -70,7 +74,7 @@ button {
 
 .hero-text p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: black;
     margin-right: 50px;
 }
 
@@ -81,21 +85,27 @@ button {
 }
 
 .hero-img img {
-    width: 550px;
+    width: 450px;
     height: auto;
+    border-radius: 100px;
+    border: 2px solid #d43595;
+}
+
+.contact a {
+    color: white;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 200px 100px;
+    padding: 75px 200px 75px 200px;
 }
 
 .projects h2 {
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1F2937;
+    color: black;
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -119,23 +129,25 @@ button {
 .dataset p {
     text-align: center;
     margin-top: 8px;
+    color: black;
 }
 
 .dataset img {
     width: 175px;
     height: 150px;
-    border: 3px solid #3882F6;
+    border: 3px solid #cfe73a;
     border-radius: 8px;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #d43595;
+    color: white;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding: 100px 350px 100px;
+    padding: 75px 350px;
 }
 
 .quote-text {
@@ -152,9 +164,9 @@ button {
 }
 
 .hire {
-    background-color: #3882F6;
+    background-color: #02248d;
     color: white;
-    margin: 100px 200px;
+    margin: 75px 200px;
     display: flex;
     justify-content: center;
     border-radius: 8px;
@@ -170,7 +182,12 @@ button {
 }
 
 .hire-container button {
+    background-color:#cfe73a;
     border: 1px solid white;
+}
+
+.hire-container a {
+    color: black;
 }
 
 .hire-text p {
